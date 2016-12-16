@@ -22,6 +22,7 @@ public class RateBLL {
 		//		interest rate for the given credit score
 		//		hints:  you have to sort the rates...  you can do this by using
 		//			a comparator... or by using an OrderBy statement in the HQL
+		// try to commit to github
 		
 		ArrayList<RateDomainModel> RateArray = RateDAL.getAllRates();
 		
